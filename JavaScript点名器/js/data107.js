@@ -11,7 +11,7 @@ var xJSON = [
     {"name": "", "boolean": true},
     {"name": "", "boolean": true},
     {"name": "杨坤", "boolean": false},
-    {"name": "宋少鹏", "boolean": false},
+    {"name": "宋少朋", "boolean": false},
     {"name": "王东安", "boolean": false},
     {"name": "孟伟洋", "boolean": false},
     {"name": "陈智聪", "boolean": false},
