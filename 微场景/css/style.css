@@ -38,7 +38,7 @@ body {
 
 /*第一屏s1里header的样式*/
 
-.s1, .s2{
+.s1, .s2, .s3, .s4, .s5, .s6, .s7{
     background:url(../img/bj.png);
     position: relative;
     height: 100%;
@@ -133,7 +133,7 @@ body {
 
 
 
-/*第二屏s2里header2的样式*/
+/*第二屏s2的样式*/
 .s2{
     color: #00ffce;
 }
@@ -216,6 +216,10 @@ body {
     left: 50%;
     margin-left: -60px;
 }
+
+
+/*第三屏s3里的样式*/
+
 
 
 
