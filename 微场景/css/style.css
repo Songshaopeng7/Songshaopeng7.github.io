@@ -219,8 +219,42 @@ body {
 
 
 /*第三屏s3里的样式*/
-
-
+.s3{
+    color:#00ffce;
+}
+.s3 h2{
+    font-size: 25px;
+    position: relative;
+    top: 12%;
+}
+.s3 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.s3 h2::before{
+    width: 80px;
+    height: 20px;
+    content: "";
+    background:url(../img/14.png);
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top:10px;
+    margin-left: -95px;
+}
+.s3 h2::after{
+    width: 80px;
+    height: 20px;
+    content: "";
+    background:url(../img/13.png);
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top:10px;
+    margin-left: 66px;
+}
 
 
 
