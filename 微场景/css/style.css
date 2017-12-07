@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -28,6 +32,8 @@ body {
     top:auto;
     bottom:5%;
 }
+
+
 
 
 /*第一屏s1里header的样式*/
@@ -71,31 +77,34 @@ body {
 
 /*第一屏s1里main的样式*/
 
+.main{
+    position: relative;
+    top: 30%;
+}
 .main img:nth-of-type(1){
     width: 40%;
 }
 .main img:nth-of-type(2){
     width: 80%;
-}
-.main{
-    position: relative;
-    top: 30%;
+    margin-bottom: 20px;
 }
 .main p{
-    position: relative;
-    top: 15px;
     color:#000;
     background: url(../img/9.png);
-    border-radius: 360px;
-    width: 200px;
+    width: 207px;
     margin: auto;
+    background-size:contain;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
 }
 
 /*第一屏s1里footer的样式*/
 
 .footer{
     position: relative;
-    top: 50%;
+    top: 48%;
 }
 .footer p{
     color:#01a8a1;
@@ -106,6 +115,8 @@ body {
     width: 100%;
     height: 33%;
 }
+
+
 
 
 
