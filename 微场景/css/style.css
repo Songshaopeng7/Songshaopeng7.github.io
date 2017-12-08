@@ -43,29 +43,34 @@ body {
     position: relative;
     height: 100%;
 }
+
 .s1 .header img:nth-of-type(1){
     width: 34px;
     position: absolute;
     top: 125px;
     left: 50px;
+    animation:pulse infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 65px;
     position: absolute;
     top: 90px;
     right: 35px;
+    animation:pulse infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 55px;
     position: absolute;
     top: 435px;
     left: 35px;
+    animation:pulse infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position: absolute;
     top: 405px;
     right: 50px;
+    animation:pulse infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 60%;
