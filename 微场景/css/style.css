@@ -367,6 +367,69 @@ body {
 }
 
 
+/*S4 第一屏的样式*/
+.s4{
+    color: #00ffce;
+}
+.s4 h2{
+    color: #00ffce;
+    font-size: 25px;
+    position: relative;
+    top: 12%;
+}
+.s4 small {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+.s4 h2::before{
+    background: url(../img/14.png);
+    width: 80px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -95px;
+}
+.s4 h2::after{
+    background: url(../img/13.png);
+    width: 80px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top:0;
+    margin-top: 10px;
+    margin-left: 66px;
+}
+.s4 img{
+    width:85%;
+    position: absolute;
+    top: 25%;
+    margin-left:-42.5%;
+}
+.s4 .img1{
+    position: absolute;
+    top: 28%;
+    left: 25%;
+}
+.s4 .img1 img{
+    width: 30px;
+}
+.s4 .img2{
+    position: absolute;
+    top: 28%;
+    right: 25%;
+    color:#01befe;
+}
+.s4 .img2 img{
+    width: 30px;
+}
 
 
 
