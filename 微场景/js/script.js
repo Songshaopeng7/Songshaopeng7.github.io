@@ -27,3 +27,23 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
+//音频标签；
+var mp3 = document.querySelector("#mp3");
+
+//音乐按钮
+var mp3Btn = document.querySelector("#mp3Btn");
+
+mp3Btn.onclick = function(){
+    if (mp3.paused) {
+        //开始旋转
+        mp3Btn.style.animationPlayState = 'running';
+        //开始音频
+        mp3.play();
+    } else {
+        //暂停旋转
+        mp3Btn.style.animationPlayState = 'paused';
+        //暂停音频
+        mp3.pause();
+    }
+}
+

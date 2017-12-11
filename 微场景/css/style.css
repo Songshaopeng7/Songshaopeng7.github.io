@@ -34,6 +34,47 @@ body {
 }
 
 
+/*音乐按钮的样式*/
+#mp3Btn{
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    z-index: 100;
+    width: 35px;
+    height: 35px;
+    background: rgb(25, 23, 23);
+    text-align: center;
+    line-height: 39px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #292929;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    /*一直执行*/
+    animation-iteration-count: infinite;
+    /*匀速执行*/
+    animation-timing-function:linear;
+    /*默认运行动画*/
+    animation-play-state:running;
+
+
+}
+@keyframes mp3key {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+#mp3Btn img{
+    width: 12px;
+}
+
+
+
+
 
 
 /*第一屏s1里header的样式*/
