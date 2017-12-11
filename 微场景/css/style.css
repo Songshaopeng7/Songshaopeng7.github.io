@@ -302,7 +302,69 @@ body {
     top:10px;
     margin-left: 66px;
 }
-
+.s3 h3{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    line-height: 77px;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(rgba(255,0,0,0),rgba(5,97,120,0.8));
+}
+.s3 h3:nth-of-type(1){
+    top: 30%;
+    left: 20%;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(2){
+    top: 30%;
+    right: 20%;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(3){
+    top: 46%;
+    left: 5%;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(4){
+    top: 42%;
+    left: 50%;
+    margin-left: -63.5px;
+    width: 127px;
+    height: 127px;
+    line-height: 126px;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(5){
+    top: 46%;
+    right: 5%;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(6){
+    top: 61%;
+    left: 20%;
+    animation:rubberBand infinite;
+}
+.s3 h3:nth-of-type(7){
+    top: 61%;
+   right: 20%;
+    animation:rubberBand infinite;
+}
+.s3 .footer{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    width: 274px;
+    height: 50px;
+    margin-left: -137px;
+}
+.s3 .footer p{
+    margin-left: 12px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.s3 .footer img{
+    height: 50px;
+}
 
 
 
