@@ -162,49 +162,50 @@ body {
 
 /*第一屏s1里footer的样式*/
 
-.s1 .footer{
+.s1 .list{
     position: absolute;
     color:#01a8a1;
     width: 100%;
     font-weight: bold;
-    bottom: 0;
+    top: 78%;
+    line-height: 2;
 }
-.s1 .footer p:nth-of-type(2){
-    margin-bottom: 35px;
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom:0;
 }
-.s1 .footer p:nth-of-type(3){
+.footer p{
     height: 70px;
 }
-.s1 .footer img:nth-of-type(1){
+.footer img:nth-of-type(1){
     position: absolute;
     height: 70px;
-    left:0;
-    animation:footerimg1 1.3s infinite alternate;
+    left: 0;
+    animation: footerimg1 1.5s infinite alternate;
 }
 @keyframes footerimg1 {
     0%{
         left: 0;
     }
     100%{
-        left:10px;
+        left:20px;
     }
 }
-
-.s1 .footer img:nth-of-type(2){
+.footer img:nth-of-type(2){
     position: absolute;
     height: 70px;
-    left:-98px;
-    animation: footerimg2 2s infinite alternate;
+    left: -95px;
+    animation: footerimg2 1.5s infinite alternate;
 }
 @keyframes footerimg2 {
     0%{
-        left: 0;
+        left:2px;
     }
     100%{
-        left:75px;
+        left:5px;
     }
 }
-
 
 
 /*第二屏s2的样式*/
@@ -247,7 +248,7 @@ body {
     margin-top: 10px;
     margin-left: 66px;
 }
-.s2 div{
+.s2 .div{
     position: absolute;
     top: 25%;
     width: 80%;
@@ -255,13 +256,13 @@ body {
     left: 50%;
     margin-left: -40%;
 }
-.s2 div img{
+.s2 .div img{
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
 }
-.s2 div p {
+.s2 .div p {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
@@ -269,7 +270,7 @@ body {
     line-height: 1.5em;
     margin-bottom: 10px;
 }
-.s2 div p:nth-of-type(1){
+.s2 .div p:nth-of-type(1){
     padding-top: 20px;
 }
 .s2 span{
@@ -291,41 +292,7 @@ body {
     margin-left: -60px;
 }
 
-.s2 .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.s2 .footer{
-    height: 70px;
-}
-.s2 .footer img{
-    height: 70px;
-}
-.s2 .footer img:nth-of-type(1){
-    left:0;
-    animation:footerimg1 2s infinite alternate;
-}
-@keyframes footerimg1 {
-    0%{
-        left: 0;
-    }
-    100%{
-        left:20px;
-    }
-}
-.s2 .footer img:nth-of-type(2){
-    left:-95px;
-    animation: footerimg2 1.5s infinite alternate;
-}
-@keyframes footerimg2 {
-    0%{
-        left: -95px;
-    }
-    100%{
-        left:-75px;
-    }
-}
+
 
 
 /*第三屏s3里的样式*/
@@ -412,7 +379,7 @@ body {
    right: 20%;
     animation:rubberBand infinite;
 }
-.s3 .footer{
+.s3 .list{
     position: absolute;
     left: 50%;
     bottom: 15%;
@@ -420,12 +387,12 @@ body {
     height: 50px;
     margin-left: -137px;
 }
-.s3 .footer p{
+.s3 .list p{
     margin-left: 12px;
     line-height: 26px;
     font-size: 14px;
 }
-.s3 .footer img{
+.s3 .list img{
     position: absolute;
     left: 0;
     height: 50px;
@@ -472,38 +439,38 @@ body {
     margin-top: 10px;
     margin-left: 66px;
 }
-.s4 img:nth-of-type(1){
+.s4 .div img:nth-of-type(1){
     width:85%;
     position: absolute;
     top: 25%;
     left: 50%;
     margin-left:-42.5%;
 }
-.s4 img:nth-of-type(2){
+.s4 .div img:nth-of-type(2){
     width: 8%;
     position: absolute;
     top: 28%;
     left: 20%;
 }
-.s4 span:nth-of-type(1){
+.s4 .div span:nth-of-type(1){
     position: absolute;
     top:28.3%;
     left: 30%;
 }
-.s4 img:nth-of-type(3){
+.s4 .div img:nth-of-type(3){
     width: 8%;
     position: absolute;
     top:28%;
     right: 37%;
 }
-.s4 span:nth-of-type(2){
+.s4 .div span:nth-of-type(2){
     position: absolute;
     top: 28.3%;
     right: 20%;
     color:#00bdff;
 }
 
-.s4 .div1 img:nth-of-type(1){
+.s4 .div .div1 img:nth-of-type(1){
     width: 5%;
     position: absolute;
     top: 35%;
@@ -514,33 +481,33 @@ body {
     left: 15%;
     top: 35%;
 }
-.s4 .div1 span{
+.s4 .div .div1 span{
     font-size: 16px;
     position: absolute;
     left: 38%;
     color:#fff;
     top: 35.5%;
 }
-.s4 .div1 img:nth-of-type(2){
+.s4 .div .div1 img:nth-of-type(2){
     width: 65%;
     height: 13px;
     top: 39%;
     left: 50%;
     margin-left: -37.5%;
 }
-.s4 .div1 p:nth-of-type(2){
+.s4 .div .div1 p:nth-of-type(2){
     font-size: 14px;
     position: absolute;
     right: 12%;
     top: 38.5%;
 }
-.s4 .div1 img:nth-of-type(3){
+.s4 .div .div1 img:nth-of-type(3){
     width: 32.5%;
     height: 13px;
     top: 42%;
     left: 15%;
 }
-.s4 .div1 p:nth-of-type(3){
+.s4 .div .div1 p:nth-of-type(3){
     font-size: 14px;
     position: absolute;
     right: 38%;
@@ -549,44 +516,44 @@ body {
 }
 
 
-.s4 .div2 img:nth-of-type(1){
+.s4 .div .div2 img:nth-of-type(1){
     width: 5%;
     position: absolute;
     top: 48%;
 }
-.s4 .div2 p:nth-of-type(1){
+.s4 .div .div2 p:nth-of-type(1){
     font-size: 17px;
     position: absolute;
     left: 15%;
     top: 48%;
 }
-.s4 .div2 span{
+.s4 .div .div2 span{
     font-size: 16px;
     position: absolute;
     left: 38%;
     color:#fff;
     top: 48.6%;
 }
-.s4 .div2 img:nth-of-type(2){
+.s4 .div .div2 img:nth-of-type(2){
     width: 58%;
     height: 13px;
     top: 52%;
     left: 50%;
     margin-left: -37.5%;
 }
-.s4 .div2 p:nth-of-type(2){
+.s4 .div .div2 p:nth-of-type(2){
     font-size: 14px;
     position: absolute;
     right: 15%;
     top: 51.5%;
 }
-.s4 .div2 img:nth-of-type(3){
+.s4 .div .div2 img:nth-of-type(3){
     width: 28%;
     height: 13px;
     top: 55%;
     left: 15%;
 }
-.s4 .div2 p:nth-of-type(3){
+.s4 .div .div2 p:nth-of-type(3){
     font-size: 14px;
     position: absolute;
     right: 43%;
@@ -595,51 +562,51 @@ body {
 }
 
 
-.s4 .div3 img:nth-of-type(1){
+.s4 .div .div3 img:nth-of-type(1){
     width: 5%;
     position: absolute;
     top: 61%;
 }
-.s4 .div3 p:nth-of-type(1){
+.s4 .div .div3 p:nth-of-type(1){
     font-size: 17px;
     position: absolute;
     left: 15%;
     top: 61%;
 }
-.s4 .div3 span{
+.s4 .div .div3 span{
     font-size: 16px;
     position: absolute;
     left: 34%;
     color:#fff;
     top: 61.6%;
 }
-.s4 .div3 img:nth-of-type(2){
+.s4 .div .div3 img:nth-of-type(2){
     width:48%;
     height: 13px;
     top: 65%;
     left: 50%;
     margin-left: -37.5%;
 }
-.s4 .div3 p:nth-of-type(2){
+.s4 .div .div3 p:nth-of-type(2){
     font-size: 14px;
     position: absolute;
     right: 28%;
     top: 64.5%;
 }
-.s4 .div3 img:nth-of-type(3){
+.s4 .div .div3 img:nth-of-type(3){
     width: 23%;
     height: 13px;
     top: 68%;
     left: 15%;
 }
-.s4 .div3 p:nth-of-type(3){
+.s4 .div .div3 p:nth-of-type(3){
     font-size: 14px;
     position: absolute;
     top: 67.7%;
     left: 40%;
     color:#00c1ff;
 }
-.s4 .div4 p:nth-of-type(1){
+.s4 .div .div4 p:nth-of-type(1){
     text-align: center;
     font-size: 13px;
     position: absolute;
@@ -648,7 +615,7 @@ body {
     margin-left: -35%;
     top: 75%;
 }
-.s4 .div4 p:nth-of-type(2){
+.s4 .div .div4 p:nth-of-type(2){
     text-align: center;
     font-size: 13px;
     position: absolute;
