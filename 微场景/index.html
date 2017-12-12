@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.min.css">
 
     <!--animate 的CSS-->
     <link rel="stylesheet" href="css/animate.min.css">
@@ -102,8 +102,8 @@
 
                 <div>
                 <img src="img/16.png" alt="">
-                    <p class="img1"><img src="img/18.png" alt="">2017年</p>
-                    <p class="img2"><img src="img/19.png" alt="">2016年</p>
+                    <img src="img/18.png" alt=""><span>2017年</span>
+                    <img src="img/19.png" alt=""><span>2016年</span>
                 </div>
 
             </div>
@@ -130,17 +130,19 @@
     <div class="swiper-pagination"></div>
 
     <!--向右按钮-->
-    <div class="swiper-button-next"></div>
+    <!--swiper-button-white 箭头变成白色-->
+    <div class="swiper-button-next swiper-button-white"></div>
     
     <!--音乐-->
     <!--播放音乐，暂停音乐，插入音乐-->
-    <audio id="mp3" src="mp3/0000011.mp3" autoplay></audio>
+    <!--音频设置为循环播放 loop-->
+    <audio id="mp3" src="mp3/0000011.mp3" autoplay loop></audio>
     <span id="mp3Btn"><img src="img/musicIcon.png" alt=""></span>
 
 </div>
 
 <!-- Swiper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
 
 <!--animate 的JS-->
 <script src="js/swiper.animate1.0.2.min.js"></script>

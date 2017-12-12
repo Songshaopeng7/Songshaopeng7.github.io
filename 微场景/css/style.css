@@ -25,7 +25,7 @@ body {
     background: #fff;
 }
 .swiper-button-next{
-    transform: rotateZ(90deg);
+    transform: rotateZ(-90deg);
     margin-left: -13.5px;
     right: auto;
     left:50%;
@@ -407,29 +407,37 @@ body {
     margin-top: 10px;
     margin-left: 66px;
 }
-.s4 img{
+.s4 img:nth-of-type(1){
     width:85%;
     position: absolute;
     top: 25%;
+    left: 50%;
     margin-left:-42.5%;
 }
-.s4 .img1{
+.s4 img:nth-of-type(2){
+    width: 8%;
     position: absolute;
     top: 28%;
-    left: 25%;
+    left: 20%;
 }
-.s4 .img1 img{
-    width: 30px;
-}
-.s4 .img2{
+.s4 span:nth-of-type(1){
     position: absolute;
-    top: 28%;
-    right: 25%;
-    color:#01befe;
+    top:28.3%;
+    left: 30%;
 }
-.s4 .img2 img{
-    width: 30px;
+.s4 img:nth-of-type(3){
+    width: 8%;
+    position: absolute;
+    top:28%;
+    right: 37%;
 }
+.s4 span:nth-of-type(2){
+    position: absolute;
+    top: 28.3%;
+    right: 20%;
+    color:
+}
+
 
 
 
