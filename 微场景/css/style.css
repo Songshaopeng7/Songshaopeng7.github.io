@@ -625,7 +625,69 @@ body {
     top: 78%;
 }
 
-
+/*第五屏s5样式*/
+.s5{
+    color: #00ffce;
+}
+.s5 h2{
+    color: #00ffce;
+    font-size: 25px;
+    position: relative;
+    top: 12%;
+}
+.s5 small {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+.s5 h2::before{
+    background: url(../img/14.png);
+    width: 80px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -95px;
+}
+.s5 h2::after{
+    background: url(../img/13.png);
+    width: 80px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top:0;
+    margin-top: 10px;
+    margin-left: 66px;
+}
+.s5 .div1 {
+    width: 35%;
+    height: 20%;
+    left: 10%;
+    top: 25%;
+    position: absolute;
+}
+.s5 .div1 img:nth-of-type(1){
+    width: 100%;
+}
+.s5 .div1 img:nth-of-type(2){
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    top: 10%;
+}
+.s5 .div1 h4{
+    font-size: 13px;
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+}
 
 
 
