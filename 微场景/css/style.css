@@ -291,6 +291,42 @@ body {
     margin-left: -60px;
 }
 
+.s2 .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.s2 .footer{
+    height: 70px;
+}
+.s2 .footer img{
+    height: 70px;
+}
+.s2 .footer img:nth-of-type(1){
+    left:0;
+    animation:footerimg1 2s infinite alternate;
+}
+@keyframes footerimg1 {
+    0%{
+        left: 0;
+    }
+    100%{
+        left:20px;
+    }
+}
+.s2 .footer img:nth-of-type(2){
+    left:-95px;
+    animation: footerimg2 1.5s infinite alternate;
+}
+@keyframes footerimg2 {
+    0%{
+        left: -95px;
+    }
+    100%{
+        left:-75px;
+    }
+}
+
 
 /*第三屏s3里的样式*/
 .s3{
@@ -599,15 +635,27 @@ body {
 .s4 .div3 p:nth-of-type(3){
     font-size: 14px;
     position: absolute;
-    left:40%;
     top: 67.7%;
+    left: 40%;
     color:#00c1ff;
 }
-.s4 div p{
+.s4 .div4 p:nth-of-type(1){
     text-align: center;
     font-size: 13px;
-    bottom: 0;
     position: absolute;
+    width: 70%;
+    left:50%;
+    margin-left: -35%;
+    top: 75%;
+}
+.s4 .div4 p:nth-of-type(2){
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    width: 70%;
+    left:50%;
+    margin-left: -35%;
+    top: 78%;
 }
 
 
