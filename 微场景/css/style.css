@@ -392,11 +392,7 @@ body {
     line-height: 26px;
     font-size: 14px;
 }
-.s3 .list img{
-    position: absolute;
-    left: 0;
-    height: 50px;
-}
+
 
 
 /*S4 第一屏的样式*/
@@ -672,23 +668,73 @@ body {
     top: 25%;
     position: absolute;
 }
-.s5 .div1 img:nth-of-type(1){
+.s5 .div2 {
+    width: 35%;
+    height: 20%;
+    right: 10%;
+    top: 25%;
+    position: absolute;
+}
+.s5 .div3 {
+    width: 35%;
+    height: 20%;
+    left: 10%;
+    top: 55%;
+    position: absolute;
+}
+.s5 .div4{
+    width: 35%;
+    height: 20%;
+    right: 10%;
+    top: 55%;
+    position: absolute;
+}
+.s5 .div1 img:nth-of-type(1),
+.s5 .div2 img:nth-of-type(1),
+.s5 .div3 img:nth-of-type(1),
+.s5 .div4 img:nth-of-type(1){
     width: 100%;
 }
-.s5 .div1 img:nth-of-type(2){
+.s5 .div1 img:nth-of-type(2),
+.s5 .div2 img:nth-of-type(2),
+.s5 .div3 img:nth-of-type(2),
+.s5 .div4 img:nth-of-type(2){
     width: 80%;
     position: absolute;
     left: 50%;
     margin-left: -40%;
     top: 10%;
 }
-.s5 .div1 h4{
+.s5 .div1 h4,
+.s5 .div2 h4,
+.s5 .div3 h4,
+.s5 .div4 h4{
     font-size: 13px;
     position: absolute;
     left: 15%;
-    bottom: 0;
+    bottom: 8%;
 }
-
+.s5 .div1 span,
+.s5 .div2 span,
+.s5 .div3 span,
+.s5 .div4 span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    margin-left: -50px;
+}
 
 
 
