@@ -24,6 +24,9 @@ body {
     font-size: 18px;
     background: #fff;
 }
+.swiper{
+    transform-origin:center;
+}
 .swiper-button-next{
     transform: rotateZ(-90deg);
     margin-left: -13.5px;
@@ -200,12 +203,13 @@ body {
 }
 @keyframes footerimg2 {
     0%{
-        left:2px;
+        left:-95px;
     }
     100%{
         left:5px;
     }
 }
+
 
 
 /*第二屏s2的样式*/
