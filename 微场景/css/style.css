@@ -812,7 +812,7 @@ body {
 .s6 .div3 img:nth-of-type(1){
     position: absolute;
     left: 0;
-    top: -15%;
+    top: -18%;
 }
 .s6 .div1 img:nth-of-type(2),
 .s6 .div2 img:nth-of-type(2),
@@ -853,7 +853,7 @@ body {
 .s6 .div3 p:nth-of-type(3){
      color:#04dab8;
      position: absolute;
-        left: 15%;
+     left: 15%;
      font-size: 14px;
      top: 55%;
  }
