@@ -23,49 +23,25 @@ body {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
 }
 
 
 
 /*第一屏s1的样式*/
 .s1{
-    background:url("../img/007.jpg");
+    background:url(../img/007.jpg);
     position: relative;
-    width: 100%;
-    height:100%;
+    height: 100%;
     background-size: contain;
 }
-.s2, .s3, .s4, .s5, .s6{
-    background:url("../img/009.jpg");
-    position: relative;
-    width: 100%;
-    height:100%;
-    background-size: cover;
-}
-.s1 h1{
-    font-size:90px;
+.s1 img{
     position: absolute;
-    color:#fff;
-    width: 20%;
-    height: 50%;
+    top: 20%;
     left: 50%;
-    top:20%;
-    margin-left: -10%;
+    width: 26%;
+    margin-left: -13%;
 }
+
 
 
 
