@@ -89,11 +89,12 @@ body {
     background:url(../img/007.jpg);
     position: relative;
     height: 100%;
-    background-size: contain;
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
 }
 .s1 img{
     position: absolute;
-    top: 15%;
+    top: 6%;
     left: 50%;
     width: 26%;
     margin-left: -13%;
@@ -104,7 +105,7 @@ body {
     position: absolute;
     width: 58%;
     left: 50%;
-    bottom: 22%;
+    bottom: 38%;
     margin-left: -29%;
 }
 .s1 p:nth-of-type(2){
@@ -113,7 +114,7 @@ body {
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 18%;
+    bottom: 32%;
     margin-left: -28%;
 }
 .s1 p:nth-of-type(3){
@@ -174,8 +175,8 @@ body {
     left: 30%;
     width: 60%;
     height: 68%;
-    background-color:#d37f41;
-    opacity: 0.5;
+    background-color:#411c0a;
+    opacity: 0.9;
 }
 .s2 .div3 img{
     position:absolute;
@@ -184,16 +185,23 @@ body {
     width: 100%;
 }
 .s2 .div3 p{
-    font-size: 13px;
+    font-size: 15px;
     color:#fff;
 }
 .s2 .div3 p:nth-of-type(1){
     position: absolute;
-    right: 0;
+    width: 100%;
     top: 50%;
-    width: 8%;
+    text-align: left;
+    padding: 2px 10px;
 }
-
+.s2 .div3 p:nth-of-type(2){
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+    text-align: left;
+    padding: 2px 10px;
+}
 
 
 
