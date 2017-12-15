@@ -174,7 +174,7 @@ body {
     left: 30%;
     width: 60%;
     height: 68%;
-    background-color:#411c0a;
+    background-color: rgba(15, 5, 5, 0.62);
     opacity: 0.7;
     border:1px solid #c59e51;
 }
@@ -213,6 +213,16 @@ body {
     margin-left: -50%;
     bottom: 8%;
     font-size: 12px;
+}
+/*s3第三屏样式*/
+.s3 .div{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:#c59e51;
+    opacity: 0.5;
 }
 
 
