@@ -216,11 +216,12 @@ body {
 }
 /*s3第三屏样式*/
 .s3 .div{
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height: 80%;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 50%;
+    top: 20%;
+    margin-left: -37.5%;
     background-color:#c59e51;
     opacity: 0.5;
 }
