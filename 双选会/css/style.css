@@ -247,7 +247,7 @@ body {
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    font-size: 14px;
+    font-size: 16px;
     color:#000;
 }
 .s3 .div p:nth-of-type(3){
@@ -312,7 +312,7 @@ body {
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    font-size: 14px;
+    font-size: 16px;
     color:#000;
 }
 .s3 .div p:nth-of-type(12){
@@ -357,8 +357,28 @@ body {
     font-size: 12px;
     color:#000;
 }
+/*第四屏s4的样式*/
 
-
+.s4 .div{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    opacity: 0.7;
+    border:1px solid #fff;
+    margin-left: -40%;
+    background-color: rgba(0, 0, 0, 0.72);
+    border-radius: 15px;
+    color:#c59e51;
+}
+.s4 .div h2{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top:5%;
+}
 
 
 
