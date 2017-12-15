@@ -86,8 +86,10 @@ body {
 
 /*第一屏s1的样式*/
 .s1{
+    background:url("../img/000.jpg");
     position: relative;
-    height:100%;
+    height: 100%;
+    background-size: 100% 100%;
 }
 .s1 img{
     position: absolute;
@@ -111,7 +113,7 @@ body {
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 32%;
+    bottom: 34%;
     margin-left: -28%;
 }
 .s1 p:nth-of-type(3){
@@ -120,7 +122,7 @@ body {
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 7%;
+    bottom: 12%;
     margin-left: -28%;
 }
 .s1 p:nth-of-type(4){
@@ -129,7 +131,7 @@ body {
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 10%;
+    bottom: 9%;
     margin-left: -28%;
 }
 
@@ -186,6 +188,7 @@ body {
 .s2 .div3 p{
     font-size: 13px;
     color:#c59e51;
+    letter-spacing: 2px;
 }
 .s2 .div3 p:nth-of-type(1){
     position: absolute;
@@ -210,7 +213,7 @@ body {
     left: 50%;
     margin-left: -50%;
     bottom: 8%;
-    font-size: 12px;
+    font-size: 15px;
 }
 /*s3第三屏样式*/
 .s3 .div{
@@ -221,7 +224,7 @@ body {
     top: 10%;
     margin-left: -37.5%;
     background-color:#c59e51;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 12px;
 }
 .s3 .div h2{
@@ -231,79 +234,65 @@ body {
     left: 50%;
     margin-left: -20%;
 }
-.s3 .div p:nth-of-type(1){
+.s3 .div p{
     position: absolute;
+    font-size: 16px;
+}
+.s3 .div p:nth-of-type(1){
     top: 4%;
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    font-size: 12px;
     text-align: center;
-    color:#ccc;
+    color:#fff;
+    font-size: 13px;
 }
 .s3 .div p:nth-of-type(2){
-    position: absolute;
     top: 18%;
     width: 60%;
     left: 50%;
+    font-size: 20px;
     margin-left: -30%;
-    font-size: 16px;
     color:#000;
 }
 .s3 .div p:nth-of-type(3){
-    position: absolute;
     top: 25%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(4){
-    position: absolute;
     top: 28%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(5){
-    position: absolute;
     top: 35%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(6){
-    position: absolute;
     top: 38%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(7){
-    position: absolute;
     top: 45%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(8){
-    position: absolute;
     top: 48%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(9){
-    position: absolute;
     top: 55%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(10){
-    position: absolute;
     top: 58%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(11){
@@ -312,74 +301,197 @@ body {
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    font-size: 16px;
+    font-size: 20px;
     color:#000;
 }
 .s3 .div p:nth-of-type(12){
-    position: absolute;
     bottom: 28%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(13){
-    position: absolute;
     bottom: 25%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(14){
-    position: absolute;
     bottom: 20%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(15){
-    position: absolute;
     bottom: 17%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(16){
-    position: absolute;
     bottom: 12%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
 .s3 .div p:nth-of-type(17){
-    position: absolute;
     bottom: 9%;
     left: 10%;
-    font-size: 12px;
     color:#000;
 }
-/*第四屏s4的样式*/
 
+/*第四屏s4样式*/
 .s4 .div{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -37.5%;
+    background-color:#c59e51;
+    opacity: 0.7;
+    border-radius: 12px;
+}
+.s4 .div h2{
+    position: absolute;
+    top: 8%;
+    width: 40%;
+    left: 50%;
+    margin-left: -20%;
+}
+.s4 .div img{
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    margin-left: -40%;
+    border: 1px solid #fff;
+    border-radius:8px;
+    top: 20%;
+
+}
+.s4 .div p{
+    position: absolute;
+    font-size: 16px;
+}
+.s4 .div p:nth-of-type(1){
+    top: 4%;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+    color:#fff;
+    font-size: 13px;
+}
+.s4 .div p:nth-of-type(2){
+    bottom: 38%;
+    left: 5%;
+    color:#000;
+}
+.s4 .div p:nth-of-type(3){
+    bottom: 28%;
+    left: 5%;
+    color:#000;
+}
+
+.s4 .div p:nth-of-type(4){
+    bottom: 18%;
+    left: 5%;
+    color:#000;
+}
+
+.s4 .div p:nth-of-type(5){
+    bottom: 8%;
+    left: 5%;
+    color:#000;
+}
+
+
+
+
+/*第五屏s5样式*/
+.s5 .div{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -37.5%;
+    background-color:#c59e51;
+    opacity: 0.7;
+    border-radius: 12px;
+}
+.s5 .div h2{
+    position: absolute;
+    top: 8%;
+    width: 40%;
+    left: 50%;
+    margin-left: -20%;
+}
+.s5 .div p{
+    position: absolute;
+    font-size: 16px;
+}
+.s5 .div p:nth-of-type(1){
+    top: 4%;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    color:#fff;
+    font-size: 13px;
+}
+.s5 .div p:nth-of-type(2){
+    top:30%;
+    left: 7%;
+    color:#000;
+    text-align: left;
+}
+.s5 .div p:nth-of-type(3){
+    top:40%;
+    left: 5%;
+    color:#000;
+    text-align: left;
+}
+.s5 .div p:nth-of-type(4){
+    top:50%;
+    left: 5%;
+    color:#000;
+    text-align: left;
+}
+.s5 .div p:nth-of-type(5){
+    top:60%;
+    left: 5%;
+    color:#000;
+    text-align: left;
+}
+.s5 .div img{
+    position: absolute;
+    bottom: 10%;
+    height: 20%;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+}
+
+
+
+/*第六屏s6的样式*/
+
+.s6 .div{
     width: 80%;
     height: 80%;
     position: absolute;
     left: 50%;
     top: 10%;
-    opacity: 0.7;
+    opacity: 0.8;
     border:1px solid #fff;
     margin-left: -40%;
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.59);
     border-radius: 15px;
     color:#c59e51;
 }
-.s4 .div h2{
+.s6 .div h2{
     position: absolute;
     width: 60%;
     left: 50%;
     margin-left: -30%;
     top:5%;
 }
-.s4 .div h4{
+.s6 .div h4{
     position: absolute;
     width: 30%;
     left: 50%;
@@ -387,19 +499,43 @@ body {
     top: 20%;
     color:#ccc;
 }
-.s4 .div p:nth-of-type(1){
+.s6 .div p:nth-of-type(1){
     position: absolute;
-    left: 0;
+    left: 3%;
     top: 30%;
     font-size: 13px;
     color: #cccccc;
 }
-.s4 .div p:nth-of-type(2){
+.s6 .div p:nth-of-type(2){
     position: absolute;
-    left: 0;
+    left: 3%;
     top: 40%;
     font-size: 13px;
     color: #cccccc;
+}
+.s6 .div p:nth-of-type(3){
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    font-size: 13px;
+    color: #cccccc;
+}
+.s6 .div p:nth-of-type(4){
+    position: absolute;
+    left: 3%;
+    top: 60%;
+    font-size: 13px;
+    color: #cccccc;
+}
+.s6 .an{
+    position: absolute;
+    bottom: 20%;
+    width: 36%;
+    height: 8%;
+    left: 50%;
+    margin-left: -18%;
+    color:#fff;
+    background-color: rgba(37, 106, 240, 0.8);
 }
 
 
