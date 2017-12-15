@@ -89,7 +89,6 @@ body {
     background:url(../img/007.jpg);
     position: relative;
     height: 100%;
-    -moz-background-size:100% 100%;
     background-size:100% 100%;
 }
 .s1 img{
@@ -176,31 +175,43 @@ body {
     width: 60%;
     height: 68%;
     background-color:#411c0a;
-    opacity: 0.9;
+    opacity: 0.7;
+    border:1px solid #c59e51;
 }
 .s2 .div3 img{
     position:absolute;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 10px 10px;
 }
 .s2 .div3 p{
-    font-size: 15px;
-    color:#fff;
+    font-size: 13px;
+    color:#c59e51;
 }
 .s2 .div3 p:nth-of-type(1){
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 45%;
     text-align: left;
     padding: 2px 10px;
 }
 .s2 .div3 p:nth-of-type(2){
     position: absolute;
     width: 100%;
-    bottom: 3%;
+    bottom: 4%;
     text-align: left;
     padding: 2px 10px;
+}
+.s2 .ln{
+    position: absolute;
+    color: #c59e51;
+    opacity: 0.8;
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
+    bottom: 8%;
+    font-size: 12px;
 }
 
 
