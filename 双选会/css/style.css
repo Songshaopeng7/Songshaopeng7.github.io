@@ -24,6 +24,63 @@ body {
     font-size: 18px;
     background: #fff;
 }
+.swiper-button-next{
+    transform: rotateZ(-90deg);
+    margin-left: -13.5px;
+    right: auto;
+    left:50%;
+    top:auto;
+    bottom: 2%;
+    width: 32px;
+    height: 24px;
+    animation: button1 1.5s infinite;
+}
+@keyframes button1{
+    0%{
+        buttom: 2%;
+        opacity: 0.8;
+    }
+    100%{
+        buttom:0;
+        opacity: 0;
+    }
+}
+
+/*音乐按钮的样式*/
+#mp3Btn{
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    z-index: 100;
+    width: 35px;
+    height: 35px;
+    background: rgb(25, 23, 23);
+    text-align: center;
+    line-height: 39px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #292929;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    /*一直执行*/
+    animation-iteration-count: infinite;
+    /*匀速执行*/
+    animation-timing-function:linear;
+    /*默认运行动画*/
+    animation-play-state:running;
+}
+@keyframes mp3key {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+#mp3Btn img{
+    width: 12px;
+}
+
 
 
 
@@ -42,11 +99,103 @@ body {
     margin-left: -13%;
 }
 .s1 p:nth-of-type(1){
-    color:#fff;
+    color:#c59e51;
+    font-size: 18px;
     position: absolute;
-    left: 0;
-    bottom: 10%;
+    width: 56%;
+    left: 50%;
+    bottom: 22%;
+    margin-left: -28%;
 }
+.s1 p:nth-of-type(2){
+    color:#c59e51;
+    font-size: 18px;
+    position: absolute;
+    width: 56%;
+    left: 50%;
+    bottom: 18%;
+    margin-left: -28%;
+}
+.s1 p:nth-of-type(3){
+    color:#c59e51;
+    font-size: 12px;
+    position: absolute;
+    width: 56%;
+    left: 50%;
+    bottom: 7%;
+    margin-left: -28%;
+}
+.s1 p:nth-of-type(4){
+    color:#c59e51;
+    font-size: 12px;
+    position: absolute;
+    width: 56%;
+    left: 50%;
+    bottom: 10%;
+    margin-left: -28%;
+}
+
+/*第二屏s2的样式*/
+.s2, .s3, .s3, .s4, .s5, .s6{
+    background:url("../img/009.jpg");
+    position: relative;
+    height: 100%;
+    background-size: cover;
+}
+.s2 h2{
+    color: #d37f41;
+    font-size: 45px;
+    position: relative;
+    width: 12%;
+    top: 6%;
+    left: 8%;
+}
+.s2 .div1{
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    width: 3%;
+    height:2%;
+    border-radius: 50%;
+    background: #d37f41;
+}
+.s2 .div2{
+    position: absolute;
+    top: 37%;
+    left: 23%;
+    width: 3%;
+    height:2%;
+    border-radius: 50%;
+    background: #d37f41;
+}
+.s2 .div3{
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    width: 60%;
+    height: 68%;
+    background-color:#d37f41;
+    opacity: 0.5;
+}
+.s2 .div3 img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.s2 .div3 p{
+    font-size: 13px;
+    color:#fff;
+}
+.s2 .div3 p:nth-of-type(1){
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 8%;
+}
+
+
+
 
 
 
