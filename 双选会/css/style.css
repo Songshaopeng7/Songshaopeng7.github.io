@@ -93,27 +93,27 @@ body {
 }
 .s1 img{
     position: absolute;
-    top: 8%;
+    top: 10%;
     left: 50%;
     width: 26%;
     margin-left: -13%;
 }
 .s1 h2:nth-of-type(1){
-    font-size: 25px;
+    font-size: 23px;
     color:#c59e51;
     position: absolute;
     width: 62%;
     left: 50%;
-    bottom: 35%;
+    bottom: 30%;
     margin-left: -31%;
 }
 .s1 h2:nth-of-type(2){
     color:#c59e51;
-    font-size: 25px;
+    font-size: 23px;
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 30%;
+    bottom: 25%;
     margin-left: -28%;
 }
 .s1 p:nth-of-type(1){
@@ -140,7 +140,7 @@ body {
     position: absolute;
     width: 5%;
     left: 10%;
-    top: 29%;
+    top: 31%;
 }
 .s1 .div{
     background-color:#c59e51;
@@ -148,7 +148,7 @@ body {
     height: 30px;
     position: absolute;
     left: 12%;
-    top: 36%;
+    top: 38%;
 }
 .s1 p:nth-of-type(4){
     color:#c59e51;
@@ -156,7 +156,7 @@ body {
     position: absolute;
     width: 5%;
     left: 10%;
-    top: 40%;
+    top: 42%;
 }
 
 
@@ -250,10 +250,10 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
-    border:1px solid #c59e51;
+    background-color: rgba(0, 0, 0, 0.59);
+    border: 1px solid #c59e51;
 }
 .s3 .div h2{
     position: absolute;
@@ -266,6 +266,7 @@ body {
 .s3 .div p{
     position: absolute;
     font-size: 16px;
+    color:#fff;
 }
 .s3 .div p:nth-of-type(1){
     top: 4%;
@@ -273,7 +274,7 @@ body {
     left: 50%;
     margin-left: -30%;
     text-align: center;
-    color:#fff;
+    color:#c59e51;
     font-size: 13px;
 }
 .s3 .div p:nth-of-type(2){
@@ -282,86 +283,72 @@ body {
     left: 50%;
     font-size: 20px;
     margin-left: -30%;
-    color:#000;
+    color: #000000;
 }
 .s3 .div p:nth-of-type(3){
     top: 25%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(4){
-    top: 28%;
+    top: 29%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(5){
     top: 35%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(6){
-    top: 38%;
+    top: 39%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(7){
     top: 45%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(8){
-    top: 48%;
+    top: 49%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(9){
     top: 55%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(10){
-    top: 58%;
+    top: 59%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(11){
     position: absolute;
-    bottom: 34%;
+    top: 65%;
     width: 60%;
     left: 50%;
     margin-left: -30%;
     font-size: 20px;
-    color:#000;
+    color: #000000;
 }
 .s3 .div p:nth-of-type(12){
-    bottom: 28%;
+    top: 70%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(13){
-    bottom: 25%;
+    top: 74%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(14){
-    bottom: 20%;
+    top: 80%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(15){
-    bottom: 17%;
+    top: 84%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(16){
-    bottom: 12%;
+    top: 90%;
     left: 10%;
-    color:#000;
 }
 .s3 .div p:nth-of-type(17){
-    bottom: 9%;
+    top: 94%;
     left: 10%;
-    color:#000;
 }
 
 /*第四屏s4样式*/
@@ -372,10 +359,10 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
-    border:1px solid #c59e51;
+    background-color: rgba(0, 0, 0, 0.59);
+    border: 1px solid #c59e51;
 }
 .s4 .div h2{
     position: absolute;
@@ -396,8 +383,10 @@ body {
 
 }
 .s4 .div p{
+    color:#fff;
     position: absolute;
     font-size: 16px;
+    text-align: left;
 }
 .s4 .div p:nth-of-type(1){
     top: 4%;
@@ -405,30 +394,26 @@ body {
     left: 50%;
     margin-left: -40%;
     text-align: center;
-    color:#fff;
+    color:#c59e51;
     font-size: 13px;
 }
 .s4 .div p:nth-of-type(2){
     bottom: 38%;
     left: 5%;
-    color:#000;
 }
 .s4 .div p:nth-of-type(3){
     bottom: 28%;
     left: 5%;
-    color:#000;
 }
 
 .s4 .div p:nth-of-type(4){
     bottom: 18%;
     left: 5%;
-    color:#000;
 }
 
 .s4 .div p:nth-of-type(5){
     bottom: 8%;
     left: 5%;
-    color:#000;
 }
 
 
@@ -442,10 +427,11 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
-    border:1px solid #c59e51;
+    background-color: rgba(0, 0, 0, 0.59);
+    border: 1px solid #c59e51;
+    color:#fff;
 }
 .s5 .div h2{
     position: absolute;
@@ -457,44 +443,39 @@ body {
 }
 .s5 .div p{
     position: absolute;
-    font-size: 16px;
+    font-size: 14px;
 }
 .s5 .div p:nth-of-type(1){
     top: 4%;
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    color:#fff;
+    color:#c59e51;
     font-size: 13px;
 }
 .s5 .div p:nth-of-type(2){
     top:20%;
     left: 7%;
-    color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(3){
     top:30%;
     left: 5%;
-    color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(4){
     top:40%;
     left: 5%;
-    color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(5){
     top:50%;
     left: 5%;
-    color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(6){
     top:60%;
     left: 5%;
-    color:#000;
     text-align: left;
 }
 .s5 .div img{
@@ -538,6 +519,9 @@ body {
     margin-left: -15%;
     top: 20%;
     color:#ccc;
+}
+.s6 .div p{
+    text-align: left;
 }
 .s6 .div p:nth-of-type(1){
     position: absolute;
