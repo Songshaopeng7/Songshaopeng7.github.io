@@ -120,7 +120,7 @@ body {
     margin-left: -28%;
 }
 .s1 p:nth-of-type(2){
-    color:rgba(204, 204, 204, 0.81);
+    color: rgba(204, 204, 204, 0.81);
     font-size: 12px;
     position: absolute;
     width: 56%;
