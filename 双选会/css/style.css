@@ -93,31 +93,31 @@ body {
 }
 .s1 img{
     position: absolute;
-    top: 6%;
+    top: 8%;
     left: 50%;
     width: 26%;
     margin-left: -13%;
 }
-.s1 p:nth-of-type(1){
+.s1 h2:nth-of-type(1){
+    font-size: 25px;
     color:#c59e51;
-    font-size: 18px;
     position: absolute;
-    width: 58%;
+    width: 62%;
     left: 50%;
-    bottom: 38%;
-    margin-left: -29%;
+    bottom: 35%;
+    margin-left: -31%;
 }
-.s1 p:nth-of-type(2){
+.s1 h2:nth-of-type(2){
     color:#c59e51;
-    font-size: 18px;
+    font-size: 25px;
     position: absolute;
     width: 56%;
     left: 50%;
-    bottom: 34%;
+    bottom: 30%;
     margin-left: -28%;
 }
-.s1 p:nth-of-type(3){
-    color:#c59e51;
+.s1 p:nth-of-type(1){
+    color: rgba(255, 212, 106, 0.59);
     font-size: 12px;
     position: absolute;
     width: 56%;
@@ -125,8 +125,8 @@ body {
     bottom: 12%;
     margin-left: -28%;
 }
-.s1 p:nth-of-type(4){
-    color:#c59e51;
+.s1 p:nth-of-type(2){
+    color: rgba(255, 212, 106, 0.59);
     font-size: 12px;
     position: absolute;
     width: 56%;
@@ -134,6 +134,33 @@ body {
     bottom: 9%;
     margin-left: -28%;
 }
+.s1 p:nth-of-type(3){
+    color:#c59e51;
+    font-size: 12px;
+    position: absolute;
+    width: 5%;
+    left: 10%;
+    top: 29%;
+}
+.s1 .div{
+    background-color:#c59e51;
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    left: 12%;
+    top: 36%;
+}
+.s1 p:nth-of-type(4){
+    color:#c59e51;
+    font-size: 12px;
+    position: absolute;
+    width: 5%;
+    left: 10%;
+    top: 40%;
+}
+
+
+
 
 /*第二屏s2的样式*/
 .s2, .s3, .s3, .s4, .s5, .s6{
@@ -223,9 +250,10 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color:#c59e51;
+    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
+    border:1px solid #c59e51;
 }
 .s3 .div h2{
     position: absolute;
@@ -233,6 +261,7 @@ body {
     width: 40%;
     left: 50%;
     margin-left: -20%;
+    color:#c59e51;
 }
 .s3 .div p{
     position: absolute;
@@ -343,9 +372,10 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color:#c59e51;
+    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
+    border:1px solid #c59e51;
 }
 .s4 .div h2{
     position: absolute;
@@ -353,6 +383,7 @@ body {
     width: 40%;
     left: 50%;
     margin-left: -20%;
+    color:#c59e51;
 }
 .s4 .div img{
     position: absolute;
@@ -411,9 +442,10 @@ body {
     left: 50%;
     top: 10%;
     margin-left: -37.5%;
-    background-color:#c59e51;
+    background-color: rgba(128, 128, 128, 0.68);
     opacity: 0.7;
     border-radius: 12px;
+    border:1px solid #c59e51;
 }
 .s5 .div h2{
     position: absolute;
@@ -421,6 +453,7 @@ body {
     width: 40%;
     left: 50%;
     margin-left: -20%;
+    color:#c59e51;
 }
 .s5 .div p{
     position: absolute;
@@ -435,24 +468,30 @@ body {
     font-size: 13px;
 }
 .s5 .div p:nth-of-type(2){
-    top:30%;
+    top:20%;
     left: 7%;
     color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(3){
-    top:40%;
+    top:30%;
     left: 5%;
     color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(4){
-    top:50%;
+    top:40%;
     left: 5%;
     color:#000;
     text-align: left;
 }
 .s5 .div p:nth-of-type(5){
+    top:50%;
+    left: 5%;
+    color:#000;
+    text-align: left;
+}
+.s5 .div p:nth-of-type(6){
     top:60%;
     left: 5%;
     color:#000;
@@ -490,6 +529,7 @@ body {
     left: 50%;
     margin-left: -30%;
     top:5%;
+    color:#c59e51;
 }
 .s6 .div h4{
     position: absolute;
