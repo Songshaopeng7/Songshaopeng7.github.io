@@ -85,7 +85,6 @@ body {
 
 
 /*第一屏s1的样式*/
-
 .s1 img{
     position: absolute;
     top: 10%;
@@ -134,7 +133,7 @@ body {
     font-size: 12px;
     position: absolute;
     width: 5%;
-    left: 10%;
+    left: 8%;
     top: 31%;
 }
 .s1 .div{
@@ -142,16 +141,16 @@ body {
     width: 2px;
     height: 30px;
     position: absolute;
-    left: 12%;
-    top: 38%;
+    left: 10%;
+    top:39%;
 }
 .s1 p:nth-of-type(4){
     color:#c59e51;
     font-size: 12px;
     position: absolute;
     width: 5%;
-    left: 10%;
-    top: 42%;
+    left: 8%;
+    top: 44%;
 }
 
 
