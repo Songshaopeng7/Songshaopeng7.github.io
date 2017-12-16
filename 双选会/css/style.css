@@ -573,7 +573,7 @@ body {
 .s7 .div1 input{
     position: absolute;
     width: 80%;
-    border:2px solid #047c73;
+    border:2px solid #c59e51;
 }
 .s7 .div input:nth-of-type(1){
     position: absolute;
@@ -582,7 +582,6 @@ body {
     top:24%;
     left: 50%;
     margin-left: -40%;
-    border:2px solid #047c73;
 }
 .s7 .div input:nth-of-type(2){
     position: absolute;
@@ -591,7 +590,6 @@ body {
     top:40%;
     left: 50%;
     margin-left: -40%;
-    border:2px solid #047c73;
 }
 .s7 .div input:nth-of-type(3){
     position: absolute;
@@ -600,7 +598,6 @@ body {
     top:56%;
     left: 50%;
     margin-left: -40%;
-    border:2px solid #047c73;
 }
 .s7 .an{
     position: absolute;
@@ -610,7 +607,7 @@ body {
     left: 50%;
     margin-left: -18%;
     color:#fff;
-    background-color: rgba(37, 106, 240, 0.8);
+    background-color: rgb(45, 164, 248);
 }
 
 
