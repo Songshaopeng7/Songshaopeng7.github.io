@@ -157,7 +157,7 @@ body {
 
 
 /*第二屏s2的样式*/
-.s1, .s2, .s3, .s3, .s4, .s5, .s6{
+.s1, .s2, .s3, .s3, .s4, .s5, .s6, .s7{
     background:url("../img/009.jpg");
     position: relative;
     height: 100%;
@@ -495,22 +495,15 @@ body {
     background-color: rgba(0, 0, 0, 0.59);
     border-radius: 15px;
     color:#c59e51;
+    border: 1px solid #c59e51;
 }
 .s6 .div h2{
     position: absolute;
     width: 60%;
     left: 50%;
     margin-left: -30%;
-    top:5%;
+    top:15%;
     color:#c59e51;
-}
-.s6 .div h4{
-    position: absolute;
-    width: 30%;
-    left: 50%;
-    margin-left: -15%;
-    top: 20%;
-    color:#ccc;
 }
 .s6 .div p{
     text-align: left;
@@ -543,9 +536,75 @@ body {
     font-size: 13px;
     color: #cccccc;
 }
-.s6 .an{
+
+
+
+/*第七屏s6的样式*/
+
+.s7 .div{
+    width: 80%;
+    height: 80%;
     position: absolute;
-    bottom: 20%;
+    left: 50%;
+    top: 10%;
+    opacity: 0.8;
+    margin-left: -40%;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 15px;
+    color:#c59e51;
+    border: 1px solid #c59e51;
+}
+.s7 .div h2{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top:5%;
+    color:#c59e51;
+}
+.s7 .div h4{
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    margin-left: -15%;
+    top: 20%;
+    color:#ccc;
+}
+.s7 .div1 input{
+    position: absolute;
+    width: 80%;
+    border:2px solid #047c73;
+}
+.s7 .div input:nth-of-type(1){
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top:24%;
+    left: 50%;
+    margin-left: -40%;
+    border:2px solid #047c73;
+}
+.s7 .div input:nth-of-type(2){
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top:40%;
+    left: 50%;
+    margin-left: -40%;
+    border:2px solid #047c73;
+}
+.s7 .div input:nth-of-type(3){
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top:56%;
+    left: 50%;
+    margin-left: -40%;
+    border:2px solid #047c73;
+}
+.s7 .an{
+    position: absolute;
+    bottom: 15%;
     width: 36%;
     height: 8%;
     left: 50%;
